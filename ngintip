@@ -21,6 +21,9 @@
 
 
 SELECT LOAD_FILE('D:/xampp/htdocs/Web_Sci/.htaccess.env.backup');
+SELECT LOAD_FILE('D:/xampp/htdocs/Web_Sci/.htpasswd.env.backup');
+
+SELECT LOAD_FILE('D:/xampp/apache/conf/httpd.conf') 
 
 
 SELECT LOAD_FILE('D:/xampp/mysql/data/backup_config.txt');
