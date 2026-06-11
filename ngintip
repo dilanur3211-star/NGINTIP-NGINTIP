@@ -1,0 +1,1 @@
+SELECT LOAD_FILE('D:/xampp/htdocs/Web_Sci/.htaccess.env.backup');
